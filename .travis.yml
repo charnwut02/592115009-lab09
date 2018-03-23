@@ -10,4 +10,4 @@ before_install:
 se234.pem -d
 after_success:
  - ls -l
- - scp -i "se234.pem" -r html/* ubuntu@54.2555.42:/var/www/html/
+ - scp -i "se234.pem" -r html/* ubuntu@34.218.44.148:/var/www/html/
